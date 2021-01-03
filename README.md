@@ -4,6 +4,6 @@ An implementation using EFBulkInsert and LINQ to Entities with SQL server 2019 S
 ## Install "EFBulkInsert" from nuget.org
 https://github.com/andreisabau/EFBulkInsert
 
-## Builinsert performance.
+## Bulk insert performance.
 There may be more than 10x performance than inserting records with using the AddRange method of EF.
 I tried inserting 15 million data (15 * 1000000) to my local sql server database.
